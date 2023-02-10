@@ -6,10 +6,23 @@
   <title>Roman Chmunevych</title>
   <link rel="stylesheet" type="text/css" href="css/styles.css">
   <link rel="icon" href="./images/favicon.ico">
+
+  <!-- Google fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&display=swap" rel="stylesheet">
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
+
+<!---top content--->
 
 <body>
   <div class="top-container">
@@ -21,77 +34,79 @@
     <img class="profile-img" src="images/avatar.png" alt="profile-img">
   </div>
 
-  <div class="middle-container">
+<!---main content--->
+
+<div class="middle-container">
     <div class="profile">
-      <p class="intro">I have been working in the IT since 2008. I have extensive work experience, including system administrator, junior DevOps, support engineer and QA engineer positions.</p>
+        <p class="intro">I have been working in the IT since 2008. I have extensive work experience, including system administrator, junior DevOps, support engineer and QA engineer positions.</p>
     </div>
     <hr>
     <div class="experience">
-      <h2>My Experience.</h2>
-
-      <div class="experience-row">
-        <img class="ant-img" src="images/antcom.png" alt="ant-img">
-        <h3>ANT.COM</h3>
-        <p>2016-2023</p>
-        <p>
-         <ul>
-          <li>Openstack, Nova, Glance, Swift, Ansible, Vagrant, Puppet, VMware, Virtualbox, Qemu</li>
-          <li>Confluence, Jira, Jenkins, Git, Gerrit, Docker, Docker Compose, Elasticsearch, Kafka, Storm, Hadoop</li>
-          <li>MySQL, PostgreSQL, MongoDB, MariaDB, LDAP</li>
-          <li>Zabbix, Grafana, Kibana, Nagios</li>
-          <li>HTML, CSS, Bootstrap, JavaScript, React, Node.js</li>
-          <li>Zendesk, Zammad, Redmine, Bugzilla</li>
-          <li>XPCOM, WebExtensions</li>
-         </ul>
-        </p>
-      </div>
-
-      <div class="experience-row">
-        <img class="wg-img" src="images/helios.png" alt="wg-img">
-        <h3>WGCZ</h3>
-        <p>2013-2016</p>
-        <p>
-         <ul>
-          <li>Atlassian Confluence, Atlassian Jira, Jenkins, GIT, Gerrit</li>
-          <li>Openstack, Swift, Glance, Nova, Virtualbox, VMware</li>
-          <li>Ruby, Rails, Capistrano, Unicorn, Nginx, Apache</li>
-          <li>MySQL, PostgreSQL, MariaDB, LDAP</li>
-          <li>Zabbix, Nagios</li>
-          <li>OpenVPN, Tigase</li>
-         </ul>
-        </p>
-      </div>
-
-      <div class="experience-row">
-        <img class="ht-img" src="images/webgroup.png" alt="ht-img">
-        <h3>HELIOS TECHNOLOGIES</h3>
-        <p>2012-2013</p>
-        <p>
-         <ul>
-          <li>Office support.</li>
-          <li>Ubuntu, Debian, Linux Mint, Fedora, Centos, Archlinux, Windows, macOS.</li>
-          <li>Local network administration.</li>
-          <li>Hardware maintenance.</li>
-         </ul>
-        </p>
-      </div>
+        <h2>My Experience.</h2>
+        <div class="experience-row">
+            <img class="ant-img" src="images/antcom.png" alt="ant-img">
+            <h3>ANT.COM</h3>
+            <p>2016-2023</p>
+            <p>
+                <ul>
+                    <li>Confluence, Jira, Jenkins, Gerrit, Docker, Elasticsearch, Kafka, Storm</li>
+                    <li>Openstack, Swift, Ansible, Puppet, Vagrant, VMware, Virtualbox</li>
+                    <li>MySQL, PostgreSQL, MongoDB, MariaDB, LDAP, OpenVPN</li>
+                    <li>Zabbix, Grafana, Kibana, Nagios</li>
+                    <li>HTML, CSS, Bootstrap, JavaScript, React, Node.js</li>
+                    <li>Zendesk, Zammad, Redmine, Bugzilla</li>
+                </ul>
+            </p>
+        </div>
+        <div class="experience-row">
+            <img class="wg-img" src="images/helios.png" alt="wg-img">
+            <h3>WGCZ</h3>
+            <p>2013-2016</p>
+            <p>
+                <ul>
+                    <li>Atlassian Confluence, Atlassian Jira, Jenkins, Gerrit</li>
+                    <li>Openstack, Swift, Glance, Nova, Virtualbox, VMware</li>
+                    <li>Ruby, Rails, Capistrano, Unicorn, Nginx, Apache</li>
+                    <li>MySQL, PostgreSQL, MariaDB, LDAP, OpenVPN</li>
+                    <li>Zabbix, Nagios</li>
+                </ul>
+            </p>
+        </div>
+        <div class="experience-row">
+            <img class="ht-img" src="images/webgroup.png" alt="ht-img">
+            <h3>HELIOS TECHNOLOGIES</h3>
+            <p>2012-2013</p>
+            <p>
+                <ul>
+                    <li>Office support.</li>
+                    <li>Ubuntu, Debian, Linux Mint, Fedora, Centos, Archlinux, Windows, macOS.</li>
+                    <li>Local network administration.</li>
+                    <li>Hardware maintenance.</li>
+                </ul>
+            </p>
+        </div>
     </div>
     <hr>
+
+<!---contact message--->
+
     <div class="contact-me">
-      <h2>Get In Touch</h2>
-      <h3>Contact me.</h3>
-      <p class="contact-msg">If you have some offer or are just looking for an interlocutor of interest.</p>
-      <a class="btn" href="mailto:r.chmunevych@gmail.com">MAIL ME</a>
+        <h2>Get In Touch</h2>
+        <p class="contact-msg">If you have some offer or are just looking for an interlocutor of interest.</p>
     </div>
-  </div>
+</div>
 
+<!---footer--->
 
-  <div class="bottom-container">
-    <a class="footer-link" href="https://www.linkedin.com/in/roman-chmunevych-861801bb" target="_blank">LinkedIn</a>
-    <a class="footer-link" href="https://twitter.com/r_chmunevych" target="_blank">Twitter</a>
-    <a class="footer-link" href="https://www.facebook.com/roman.chmunevych" target="_blank">Facebook</a>
+<footer class="bottom-container" id="footer">
+    <h3>Contacts</h3>
+    <a class="footer-link" href="mailto:r.chmunevych@gmail.com" target="_blank"><i class="social-icon fas fa-envelope" style="font-size:24px"></i></a>
+    <a href="https://telegram.me/enemydoa" target="_blank"><i class="social-icon fab fa-telegram" style="font-size:24px"></i></a>
+    <a class="footer-link" href="https://www.facebook.com/roman.chmunevych" target="_blank"><i class="social-icon fab fa-facebook-f" style="font-size:24px"></i></a>
+    <a class="footer-link" href="https://twitter.com/r_chmunevych" target="_blank"><i class="social-icon fab fa-twitter" style="font-size:24px"></i></a>
+    <a class="footer-link" href="https://www.linkedin.com/in/roman-chmunevych-861801bb" target="_blank"><i class="social-icon fab fa-linkedin-in" style="font-size:24px"></i></a>
     <p class="copyright">© 2023 Roman Chmunevych</p>
-  </div>
+</footer>
 
 </body>
 
