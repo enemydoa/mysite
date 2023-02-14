@@ -128,7 +128,7 @@ padding: 50px 0 20px;
 .bi-arrow-down-circle {
   font-size: 45px;
   color: #66BFBF;
-  position: relative;
+  display: block;
 }
 
 .bi-arrow-down-circle:hover {
@@ -138,7 +138,7 @@ padding: 50px 0 20px;
 .bi-arrow-up-circle {
   font-size: 45px;
   color: #66BFBF;
-  position: relative;
+  display: block;
 }
 
 .bi-arrow-up-circle:hover {
