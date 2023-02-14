@@ -63,7 +63,11 @@ padding: 50px 0 20px;
 
 .intro {
   width: 50%;
-  margin: auto;
+  margin: auto auto 50px auto;
+}
+
+#experience{
+  margin-top: 50px;
 }
 
 .experience-row {
@@ -88,7 +92,6 @@ margin: 40px auto 60px;
   font-size: 0.75rem;
   padding: 20px 0;
 }
-
 
 .profile-img {
   border-radius: 50%;
@@ -123,6 +126,12 @@ margin: 40px auto 60px;
   width: 17%;
   float: left;
   margin-right: 30px;
+}
+
+.bi-arrow-down-circle {
+  font-size: 45px;
+  color: #66BFBF;
+  margin-top: 50px;
 }
 
 .social-icon {
