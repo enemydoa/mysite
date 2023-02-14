@@ -9,7 +9,7 @@ h1 {
   color: #66BFBF;
   font-size: 4.5rem;
   line-height: 2;
-  margin: 25px auto 0 auto;
+  margin: 20px auto 0 auto;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -63,11 +63,11 @@ padding: 50px 0 20px;
 
 .intro {
   width: 50%;
-  margin: auto auto 50px auto;
+  margin: auto auto 35px auto;
 }
 
-#experience{
-  margin-top: 50px;
+.experience{
+  margin-top: 40px;
 }
 
 .experience-row {
@@ -131,7 +131,11 @@ margin: 40px auto 60px;
 .bi-arrow-down-circle {
   font-size: 45px;
   color: #66BFBF;
-  margin-top: 50px;
+  margin-top: 40px;
+}
+
+.bi-arrow-down-circle:hover {
+  color: #11999E;
 }
 
 .social-icon {
