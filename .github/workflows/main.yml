@@ -6,7 +6,7 @@ on:
 
 jobs:
 
-  app-test:
+  action-test:
     runs-on: ubuntu-latest
 
     steps:
@@ -16,9 +16,19 @@ jobs:
     - name: List current folder
       run : ls -la
       
-#  app-build:
+    - name: Install ESLint
+      run : |
+       npm install eslint@8.10.0
+       npm install @microsoft/eslint-formatter-sarif@2.1.7
+
+    - name: Run ESLint
+      run: npx eslint .
+      continue-on-error: true
+  
+      
+#  action-build:
 #    runs-on: ubuntu-latest
-#    needs: [app-test]
+#    needs: [action-test]
 #    steps:
 #    - name: Build Docker image
 #      run: docker build .
